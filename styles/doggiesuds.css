@@ -1,0 +1,201 @@
+/*Chelsea Ayala */ 
+
+* { box-sizing: border-box; }
+body{
+    background-color:#FCEBB6;
+    color:#221811 ;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    margin:0;
+ }
+header{
+    background-color:#FCEBB6;    
+    color: #221811;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+    }
+ 
+#wrapper 
+    { background-color:#231814;
+        padding:0;    }
+h1 {
+    font-size: 1em; 
+    text-align:center;
+    }    
+h2 {
+    color:#221811 ;
+    text-align:center;
+}
+h3 {
+    color:#221811;
+    }
+
+nav {
+    background-color:#FCEBB6;
+    opacity: 0.7;
+    border:solid 1px #221811;
+    text-align: center;    
+    }
+nav a {
+    text-decoration:none;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    font-size: 1em;
+    font-weight: bold;
+     
+}
+nav ul li{
+    width:100%;
+    
+}
+nav a:link {color:#221811;}
+nav a:visited{color:#221811;}
+nav a:hover {color:#FFFFFF;
+background-color:#800080}  
+
+header a {text-decoration: none;}
+header a:link{color:#221811;}
+header a:visited{color:#221811;}
+header a:hover{color:#FFFFFF;
+        background-color:#800080}
+
+main{
+     padding: 0;
+     background-color:#FCEBB6;
+     display:block;
+   }
+
+ #main h1, h2, h3, h4, p  {
+          padding:auto;
+          margin-right: auto;
+          margin-left:auto;
+        }
+ 
+
+#leftp{
+    text-align: left;
+    
+ }
+
+#products { 
+    background-image:url(../images/grooming1.jpg);
+    height: 250px;
+    width:auto;    
+    background-repeat:repeat;
+         
+}
+
+#productslist{
+    text-align:left;
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
+
+#services{ 
+    background-image:url(../images/toweltable2.jpg);
+    height: 250px;
+    width:inherit;
+    background-repeat: no-repeat;
+         
+}
+.div_details{
+    padding-right: 20%;
+    padding-left: 20%;
+    overflow:auto;
+ }
+footer {
+    background-color:#FCEBB6;
+    opacity: 0.7;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding:1em;
+    border-top: solid 4px #221811;
+}
+
+table, th, td {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*medium display*/
+@media (min-width:600px)
+{
+    header{     
+    background-image:url(../images/syrupytn1.jpg);
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;       
+    background-repeat: no-repeat;
+}
+     h1 {
+    font-size: 3em; 
+    text-align:center;
+    }  
+    
+    
+    p
+{
+    line-height:normal;
+    max-width:75ch;
+    font-size:1.5em;
+     
+}
+ 
+
+nav {
+        font-size: 1.5em;
+}
+#familydogs {
+    background-image:url(../images/syruptn1.jpg);
+    padding:75px;   
+    background-color:#FCEBB6;
+    background-repeat: repeat;
+        }
+}
+
+  
+/*large display*/
+@media (min-width:1024px){
+    
+    body{
+    background-image:url(../images/43081.jpg); 
+        /*https://www.freepik.com/free-vector/seamless-bones-pattern_10604152.htm#query=dog%20bone&position=5&from_view=keyword&track=ais*/
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+    
+     #wrapper {            
+           margin-left: auto;
+           margin-right: auto;
+           width: 80%;
+           min-width: 900px;
+           max-width: 1280px;
+           box-shadow: 7px 7px 7px #FFFFFF;   
+
+}
+    
+    nav ul{
+        flex-direction: row;
+        justify-content:space-evenly;
+        padding:0;
+}
+    nav ul li{
+        flex-wrap:nowrap;
+        margin-left: 20px;
+        
+    }
+    h1 {
+    font-size: 4em; 
+    text-align:center;
+    }  
+}
+
+  
+   
+ 
